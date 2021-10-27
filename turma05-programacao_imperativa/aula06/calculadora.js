@@ -63,7 +63,7 @@ function geradorDePorcentagem(porcent1, total2) {
   let calcPorctMult = multiplicar(calcPorctDiv, 100);
 
   let calcPorcent = console.log(
-    `O primeiro valor representa ${calcPorctMult}% do segundo valor`
+    `O valor ${porcent1} representa ${calcPorctMult}% de ${total2}`
   );
 
   return calcPorcent;
