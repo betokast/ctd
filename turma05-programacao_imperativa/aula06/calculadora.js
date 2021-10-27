@@ -58,7 +58,18 @@ function calculaPorcentagem(total, porcent) {
 
 //4 - Crie uma função geradorDePorcentagem que leva dois parâmetros, e que deverá retornar a porcentagem do primeiro em
 //relação ao segundo parâmetro. Exemplo: geradorDePorcentagem (2, 200) (deve retornar 1 já que 2 é 1% de 200).
+function geradorDePorcentagem(porcent1, total2) {
+  let calcPorctDiv = dividir(porcent1, total2);
+  let calcPorctMult = multiplicar(calcPorctDiv, 100);
 
+  let calcPorcent = console.log(
+    `O primeiro valor representa ${calcPorctMult}% do segundo valor`
+  );
+
+  return calcPorcent;
+}
+
+//==============================================================================================================================
 console.log("-------------- Teste de Operações / Calculadora --------------");
 
 console.log("Resultado soma: " + somar(5, 15));
@@ -69,3 +80,4 @@ console.log("Resultado divisão: " + dividir(0, 2));
 console.log("Quadrado do número digitado: " + quadradoDoNumero(6));
 console.log("Média de três: " + mediaDeTresNumeros(10, 7, 5));
 calculaPorcentagem(300, 15);
+geradorDePorcentagem(2, 200);
