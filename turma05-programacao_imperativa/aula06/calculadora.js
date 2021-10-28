@@ -80,4 +80,4 @@ console.log("Resultado da divisão: " + dividir(0, 2));
 console.log("Quadrado do número digitado: " + quadradoDoNumero(6));
 console.log("Média de três: " + mediaDeTresNumeros(10, 7, 5));
 calculaPorcentagem(300, 15);
-geradorDePorcentagem(2, 200);
+geradorDePorcentagem(2543, 1900);
