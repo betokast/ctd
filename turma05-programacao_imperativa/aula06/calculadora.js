@@ -25,7 +25,7 @@ function dividir(x, y) {
 }
 
 //==============================================================================================================================
-//Calculadora - Nível II
+//Calculadora - Nível III
 
 //1 - Crie uma função chamada quadradoDoNumero, que recebe um número como parâmetro e deve retornar esse número multiplicado por
 //ele mesmo, ou seja, ao quadrado. Importante: quadradoDoNumero() deve usar a função multiplicação() para calcular o quadrado
@@ -72,11 +72,11 @@ function geradorDePorcentagem(porcent1, total2) {
 //==============================================================================================================================
 console.log("-------------- Teste de Operações / Calculadora --------------");
 
-console.log("Resultado soma: " + somar(5, 15));
-console.log("Resultado subtração: " + subtrair(35, 10));
-console.log("Resultado multiplicação: " + multiplicar(7, 7));
-console.log("Resultado divisão: " + dividir(50, 5));
-console.log("Resultado divisão: " + dividir(0, 2));
+console.log("Resultado da soma: " + somar(50, 15));
+console.log("Resultado da subtração: " + subtrair(50, 30));
+console.log("Resultado da multiplicação: " + multiplicar(7, 7));
+console.log("Resultado da divisão: " + dividir(50, 5));
+console.log("Resultado da divisão: " + dividir(0, 2));
 console.log("Quadrado do número digitado: " + quadradoDoNumero(6));
 console.log("Média de três: " + mediaDeTresNumeros(10, 7, 5));
 calculaPorcentagem(300, 15);
