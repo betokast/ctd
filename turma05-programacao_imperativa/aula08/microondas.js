@@ -35,9 +35,17 @@ function microondas(opcao, tempo) {
     return console.log("Prato queimou");
   } else if (opcao === opcao5 && tempo < 8) {
     return console.log("Tempo insuficiente");
+  } else if (
+    opcao != opcao1 &&
+    opcao != opcao2 &&
+    opcao != opcao3 &&
+    opcao != opcao4 &&
+    opcao != opcao5
+  ) {
+    return console.log("Prato inexistente");
   } else {
     return console.log("Prato pronto. Bom apetite!");
   }
 }
 
-microondas("Macarrão", 24);
+microondas("Carne", 12);
