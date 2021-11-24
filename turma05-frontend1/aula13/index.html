@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms I [Aula 13]</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Formulário</header>
+      <main>
+        <form action="">
+          <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome" />
+            </div>
+            <div>
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" name="sobrenome" id="sobrenome" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="password" name="email" id="email" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Incrição</legend>
+            <label for="disciplina">Disciplina</label>
+            <select name="disciplina" id="disciplina">
+              <option value="mkt">Marketing</option>
+              <option value="ctd">CTD</option>
+              <option value="dsng">Design</option>
+              <option value="bi">Business Intelligence</option>
+            </select>
+            <div>
+              <label for="textogrande">Mensagem</label>
+              <textarea
+                name="textogrande"
+                id="textogrande"
+                cols="20"
+                rows="5"
+              ></textarea>
+            </div>
+          </fieldset>
+          <div>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

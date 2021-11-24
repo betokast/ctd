@@ -1,0 +1,11 @@
+button {
+  margin: 20px 15px 0 0;
+  width: 60px;
+  height: 30px;
+}
+
+button:hover::before {
+  background-color: blue;
+  color: #fff;
+  content: "Testando o before";
+}
